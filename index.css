@@ -15,15 +15,15 @@ body {
 }
 
 .container .content {
-  font-size: 8vw;   /* 12vw → 8vw */
+  font-size: clamp(24px, 8vmin, 60px);
 }
 
 .container .date {
-  font-size: 5vw;   /* 9vw → 5vw */
+  font-size: clamp(18px, 5vmin, 48px);
 }
 
 .container > .counter {
-  font-size: 14vw;  /* 23vw → 14vw */
+  font-size: clamp(32px, 14vmin, 120px);
   flex: 1;
   display: flex;
   justify-content: flex-end;
