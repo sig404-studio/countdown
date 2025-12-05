@@ -26,7 +26,7 @@ body {
 
 /* D-281 숫자 */
 .container > .counter {
-  font-size: 5rem;     /* 제목의 2배 이상으로 크게 */
+  font-size: 4rem;     /* 제목의 2배 이상으로 크게 */
   flex: 1;
   display: flex;
   justify-content: flex-end;
