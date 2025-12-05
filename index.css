@@ -4,6 +4,7 @@ body {
   font-weight: 900;
   height: 100vh;
 }
+
 .container {
   height: 100%;
   padding: 3% 5%;
@@ -12,14 +13,17 @@ body {
   justify-content: center;
   box-sizing: border-box;
 }
+
 .container .content {
-  font-size: 12vw;
+  font-size: 8vw;   /* 12vw → 8vw */
 }
+
 .container .date {
-  font-size: 9vw;
+  font-size: 5vw;   /* 9vw → 5vw */
 }
+
 .container > .counter {
-  font-size: 23vw;
+  font-size: 14vw;  /* 23vw → 14vw */
   flex: 1;
   display: flex;
   justify-content: flex-end;
