@@ -14,18 +14,34 @@ body {
   box-sizing: border-box;
 }
 
+/* 타이틀 (WEDDING) */
 .container .content {
-  font-size: clamp(24px, 8vmin, 60px);
+  font-size: 2.2rem;   /* 제목 */
 }
 
+/* 날짜 (2026-9-12) */
 .container .date {
-  font-size: clamp(18px, 5vmin, 48px);
+  font-size: 1.3rem;   /* 제목보다 훨씬 작게 */
 }
 
+/* D-281 숫자 */
 .container > .counter {
-  font-size: clamp(32px, 14vmin, 120px);
+  font-size: 5rem;     /* 제목의 2배 이상으로 크게 */
   flex: 1;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+/* 모바일에서 너무 크면 살짝 줄이기 */
+@media (max-width: 600px) {
+  .container .content {
+    font-size: 1.8rem;
+  }
+  .container .date {
+    font-size: 1.1rem;
+  }
+  .container > .counter {
+    font-size: 4rem;
+  }
 }
