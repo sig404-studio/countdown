@@ -16,7 +16,7 @@ body {
 
 /* 타이틀 (WEDDING) */
 .container .content {
-  font-size: 2rem;   /* 제목 */
+  font-size: 1.5rem;   /* 제목 */
 }
 
 /* 날짜 (2026-9-12) */
@@ -26,7 +26,7 @@ body {
 
 /* D-281 숫자 */
 .container > .counter {
-  font-size: 3rem;     /* 제목의 2배 이상으로 크게 */
+  font-size: 2rem;     /* 제목의 2배 이상으로 크게 */
   flex: 1;
   display: flex;
   justify-content: flex-end;
