@@ -21,12 +21,12 @@ body {
 
 /* 날짜 (2026-9-12) */
 .container .date {
-  font-size: 1.3rem;   /* 제목보다 훨씬 작게 */
+  font-size: 1rem;   /* 제목보다 훨씬 작게 */
 }
 
 /* D-281 숫자 */
 .container > .counter {
-  font-size: 2.8rem;     /* 제목의 2배 이상으로 크게 */
+  font-size: 3rem;     /* 제목의 2배 이상으로 크게 */
   flex: 1;
   display: flex;
   justify-content: flex-end;
@@ -39,9 +39,9 @@ body {
     font-size: 1.5rem;
   }
   .container .date {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .container > .counter {
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
 }
